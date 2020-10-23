@@ -19,6 +19,11 @@ public class Biblioteca {
         }
     }
 
+    public void removeBook(Carte c)
+    {
+        carti.remove(c);
+    }
+
     public void add(Carte carte)
     {
         this.carti.add(carte);
