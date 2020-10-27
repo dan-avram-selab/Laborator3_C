@@ -2,6 +2,7 @@ package ro.mta.facc.selab;
 
 public class Carte implements Comparable<Carte> {
     private String titlu;
+    private String iban;
     private String autor;
     private int anPublicatie;
     private int nrPagini;
@@ -15,6 +16,14 @@ public class Carte implements Comparable<Carte> {
         return 0;
     }
 
+
+    public String getIban() {
+        return iban;
+    }
+
+    public void setIban(String iban) {
+        this.iban = iban;
+    }
 
     public Carte(String titlu, String autor, int anPublicatie, int nrPagini) {
         this.titlu = titlu;

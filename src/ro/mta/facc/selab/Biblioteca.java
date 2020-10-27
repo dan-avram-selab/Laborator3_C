@@ -1,39 +1,42 @@
 package ro.mta.facc.selab;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Biblioteca {
-    private ArrayList<Carte> carti;
+    private ArrayList<Carte> raftCarti;
 
     public Biblioteca() {
-        this.carti = new ArrayList<Carte>();
+        this.raftCarti = new ArrayList<Carte>();
     }
 
     public Biblioteca(ArrayList<Carte> carti) {
-        this.carti = new ArrayList<Carte>();
+        this.raftCarti = new ArrayList<Carte>();
         for (Carte c : carti)
         {
-            this.carti.add(c);
+            this.raftCarti.add(c);
         }
     }
 
     public void removeBook(Carte c)
     {
-        carti.remove(c);
+        raftCarti.remove(c);
     }
 
     public void add(Carte carte)
     {
-        this.carti.add(carte);
+        this.raftCarti.add(carte);
+    }
+
+    public void afisare(){
+        System.out.println("aaaa");
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append("Biblioteca contine urmatoarele carti:\n");
-        for (Carte c : carti)
+        for (Carte c : raftCarti)
         {
             builder.append(c.toString());
             builder.append("\n");
@@ -44,7 +47,7 @@ public class Biblioteca {
 
     public void sort()
     {
-        Collections.sort(carti);
+        Collections.sort(raftCarti);
     }
 
 }
