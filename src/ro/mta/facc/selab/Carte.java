@@ -7,6 +7,10 @@ public class Carte implements Comparable<Carte> {
     private int anPublicatie;
     private int nrPagini;
 
+    public String getTitlu() {
+        return titlu;
+    }
+
     @Override
     public int compareTo(Carte o) {
         if (this.nrPagini < o.nrPagini)

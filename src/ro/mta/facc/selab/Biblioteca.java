@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Biblioteca {
     private ArrayList<Carte> raftCarti;
-
+    
     public Biblioteca() {
         this.raftCarti = new ArrayList<Carte>();
     }

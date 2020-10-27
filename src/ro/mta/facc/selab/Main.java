@@ -8,6 +8,7 @@ public class Main {
         biblioteca.add(carte);
         biblioteca.add(new Carte("Baltagul", "Vlad Florea", 1930, 200));
         biblioteca.add(new Carte("Game of Thrones", "George R.R. Martin", 2006, 800));
+        biblioteca.add(new Carte("Game of Thrones", "George R.R. Martin", 2006, 800));
         biblioteca.sort();
         System.out.println(biblioteca.toString());
     }

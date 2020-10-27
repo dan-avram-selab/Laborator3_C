@@ -4,6 +4,8 @@
     <list default="true" id="04b3c6b9-4e1e-42b8-86e6-2465c3fd3731" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/mta/facc/selab/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/mta/facc/selab/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/mta/facc/selab/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/mta/facc/selab/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/mta/facc/selab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/mta/facc/selab/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
