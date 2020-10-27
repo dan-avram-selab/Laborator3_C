@@ -9,6 +9,21 @@ public class Carte implements Comparable<Carte> {
 
     public String getTitlu() {
         return titlu;
+
+    public void setTitlu(String titlu) {
+        this.titlu = titlu;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setAnPublicatie(int anPublicatie) {
+        this.anPublicatie = anPublicatie;
+    }
+
+    public void setNrPagini(int nrPagini) {
+        this.nrPagini = nrPagini;
     }
 
     @Override
