@@ -1,14 +1,30 @@
 package ro.mta.facc.selab;
 
+/**
+ * Implementeaza modelul pentru un obiect de tip carte.
+ *
+ * @author dan.avram
+ * @see Biblioteca
+ */
 public class Carte implements Comparable<Carte> {
+
+    /**
+     * Titlu cartii. Un string care..
+     */
     private String titlu;
     private String iban;
     private String autor;
     private int anPublicatie;
     private int nrPagini;
 
+    /**
+     * Descrierea metodei
+     *
+     * @return String cu titlul cartii
+     */
     public String getTitlu() {
         return titlu;
+    }
 
     public void setTitlu(String titlu) {
         this.titlu = titlu;
